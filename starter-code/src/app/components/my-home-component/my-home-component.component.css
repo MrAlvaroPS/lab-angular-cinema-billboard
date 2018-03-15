@@ -1,0 +1,18 @@
+.uli {
+    list-style: none;
+    display: inline-block;
+}
+
+.listado {
+    list-style: none;
+}
+
+.poster {
+    width: 200px;
+    height: 300px;
+}
+
+.container {
+    max-width: 400px;
+    display: flex;
+}

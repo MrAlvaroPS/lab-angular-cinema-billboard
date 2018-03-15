@@ -1,0 +1,15 @@
+
+<div class="container">
+  <ul class="uli" *ngFor="let movie of movies">
+    <a (click) = onClick(movie.id)> {{ movie.id }} - {{ movie.title }} </a>
+    <li class="lista"> <img class="poster" [src]='movie.poster'>  </li>
+    <li class="lista"> {{ movie.synopsis }} </li>
+    <li class="lista"> {{ movie.genres }} </li>
+    <li class="lista"> {{ movie.year }} </li>
+    <li class="lista"> {{ movie.director }} </li>
+    <li class="lista"> {{ movie.actors }} </li>
+    <li class="lista"> {{ movie.hours }} </li>
+    <li class="lista"> {{ movie.room }} </li>
+  </ul>
+
+</div>
